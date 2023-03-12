@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.mains h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.List{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+/* .list{
+    box-shadow: 0px 10px 20px gray;
+    width: 70%;
+    height: 50px;
+    border: 1px solid black;
+   
+} */
+.qu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.qus{
+    display: flex;
+    width: 500px;;
+    margin: 5px;
+    box-shadow: 0px 10px 20px gray;
+    border: 1px solid black;
+
+}
+.qus h2{
+    width: 450px;
+    padding: 5px;
+}
+.qus p{
+    margin: 5px;
+}
+.btn{
+    width: 100px;
+    height: auto;
+}
+.btn h1{
+  cursor: pointer;
+  position: relative;
+  bottom: 30px;
+  right: 20px;
+}
